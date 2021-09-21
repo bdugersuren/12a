@@ -27,3 +27,7 @@ Git Commands
 | `git add .` | файлын өөрчлөлтийг stagin area руу оруулах үүрэгтэй |
 | `git status` | git-ийн төлвлийг харах |
 | `git commit -m "[commit message]"` | Өөрчлөлтийг git рүү нэр өгч хадаглах үүрэгтэй команд |
+
+
+
+My name is Dorj
