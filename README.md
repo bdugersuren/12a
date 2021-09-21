@@ -1,16 +1,29 @@
-# first_app
+Git Commands
+============
 
-A new Flutter project.
 
-## Getting Started
+### Git-ийг үүсгэх
 
-This project is a starting point for a Flutter application.
+| Command | Description |
+| ------- | ----------- |
+| `git init` | git үүсгэх |
+| `git config --global user.name "Name"` | Config username |
+| `git config --global user.email "user@example.com"` | Config e-mail |
+| `git remote add origin https://github.com/bdugersuren/reg.git` | github дээр байгаа прожекттой холбох |
+| `git branch -M "bat" ` | өөрийн ажиллах branch-ийн нэрийг тохируулах |
+| `git pull origin main` | өөрийн ажиллах branch рүү github-ийн main branch-ээс прожектийг татаж авах |
+| `git pull origin main` | өөрийн ажиллах branch рүү github-ийн main branch-ээс прожектийг татаж авах |
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+### Configuration
+
+| Command | Description |
+| ------- | ----------- |
+| `git checkout [branch name]` | Өөрийн (local) компьютер дээр байгаа branch-ийг солих команд |
+| `git checkout -b [branch name]` | Шинээр branch үүсгээд тухайн branch рүү шилжих |
+| `git branch -vv` | өөрийн компьютер дээр байгаа branch үүдийн дэлгэрэнгүй мэдээллийг харах |
+| `git add .` | файлын өөрчлөлтийг stagin area руу оруулах үүрэгтэй |
+| `git status` | git-ийн төлвлийг харах |
+| `git commit -m "[commit message]"` | Өөрчлөлтийг git рүү нэр өгч хадаглах үүрэгтэй команд |
